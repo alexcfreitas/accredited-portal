@@ -1,0 +1,27 @@
+{
+  "codRecurso": "868659",
+  "nome": "teste recurso",
+  "codGrupoUsuario": "123958",
+  "credenciados": [
+    {
+      "codCredenciado": "134424",
+      "nome": "posto tasca",
+      "razaoUso": 5
+    },
+    {
+      "codCredenciado": "245445",
+      "nome": "posto tasca",
+      "razaoUso": 5
+    },
+    {
+      "codCredenciado": "3097686",
+      "nome": "posto tasca",
+      "razaoUso": 5
+    },
+    {
+      "codCredenciado": "4",
+      "nome": "posto tasca",
+      "razaoUso": 5
+    }
+  ]
+}

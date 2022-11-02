@@ -1,0 +1,352 @@
+{
+  "allowRemoteResourceManagement": true,
+  "policyEnforcementMode": "ENFORCING",
+  "resources": [
+    {
+      "name": "Default Resource",
+      "type": "urn:credenciadosGateway:resources:default",
+      "ownerManagedAccess": false,
+      "attributes": {},
+      "_id": "1bf3b737-1680-48c8-94cd-1fadf6843949",
+      "uris": [
+        "/*"
+      ]
+    },
+    {
+      "name": "grupo-usuario",
+      "ownerManagedAccess": false,
+      "displayName": "grupo-usuario",
+      "attributes": {},
+      "_id": "a95e067d-f44e-4ed3-a239-0adcf322c892",
+      "uris": [
+        "/grupo-usuario/*"
+      ],
+      "scopes": [
+        {
+          "name": "visualizar"
+        },
+        {
+          "name": "gerenciar"
+        }
+      ]
+    },
+    {
+      "name": "authexcept",
+      "ownerManagedAccess": false,
+      "displayName": "authexcept",
+      "attributes": {},
+      "_id": "50bc463e-af01-4f78-a235-4ad0c939e4c5",
+      "uris": [
+        "/authexcept/*"
+      ],
+      "scopes": [
+        {
+          "name": "visualizar"
+        },
+        {
+          "name": "gerenciar"
+        }
+      ]
+    },
+    {
+      "name": "comportamento",
+      "ownerManagedAccess": false,
+      "displayName": "comportamento",
+      "attributes": {},
+      "_id": "c6340286-4efd-4be6-be5a-2b40906c83ab",
+      "uris": [
+        "/comportamento/*"
+      ],
+      "scopes": [
+        {
+          "name": "visualizar"
+        },
+        {
+          "name": "gerenciar"
+        }
+      ]
+    },
+    {
+      "name": "funcionalidade",
+      "ownerManagedAccess": false,
+      "displayName": "funcionalidade",
+      "attributes": {},
+      "_id": "504443bb-725e-46e2-bfad-3a56945fe9f9",
+      "uris": [
+        "/funcionalidade/*"
+      ],
+      "scopes": [
+        {
+          "name": "visualizar"
+        },
+        {
+          "name": "gerenciar"
+        }
+      ]
+    },
+    {
+      "name": "grupo-credenciado",
+      "ownerManagedAccess": false,
+      "displayName": "grupo-credenciado",
+      "attributes": {},
+      "_id": "a43efa33-146b-459d-a177-a79e3cc35017",
+      "uris": [
+        "/grupo-credenciado/*"
+      ],
+      "scopes": [
+        {
+          "name": "visualizar"
+        },
+        {
+          "name": "gerenciar"
+        }
+      ]
+    },
+    {
+      "name": "perfil",
+      "ownerManagedAccess": false,
+      "displayName": "perfil",
+      "attributes": {},
+      "_id": "12c29400-f257-4d6d-9066-fbd6b1b2b732",
+      "uris": [
+        "/perfil/*"
+      ],
+      "scopes": [
+        {
+          "name": "visualizar"
+        },
+        {
+          "name": "gerenciar"
+        }
+      ]
+    },
+    {
+      "name": "razao-uso",
+      "ownerManagedAccess": false,
+      "displayName": "razao-uso",
+      "attributes": {},
+      "_id": "12c17b6c-d410-4c82-843e-077c3a9c7473",
+      "uris": [
+        "/razao-uso/*"
+      ],
+      "scopes": [
+        {
+          "name": "visualizar"
+        },
+        {
+          "name": "gerenciar"
+        }
+      ]
+    },
+    {
+      "name": "recurso",
+      "ownerManagedAccess": false,
+      "displayName": "recurso",
+      "attributes": {},
+      "_id": "1a47e71f-113f-414d-86cf-cb1d9acd66cc",
+      "uris": [
+        "/recurso/*"
+      ],
+      "scopes": [
+        {
+          "name": "visualizar"
+        },
+        {
+          "name": "gerenciar"
+        }
+      ]
+    },
+    {
+      "name": "repasse",
+      "ownerManagedAccess": false,
+      "displayName": "repasse",
+      "attributes": {},
+      "_id": "7d039725-3821-4a7f-be05-5f660e378d14",
+      "uris": [
+        "/repasse/*"
+      ],
+      "scopes": [
+        {
+          "name": "visualizar"
+        },
+        {
+          "name": "gerenciar"
+        }
+      ]
+    },
+    {
+      "name": "transacao",
+      "ownerManagedAccess": false,
+      "displayName": "transacao",
+      "attributes": {},
+      "_id": "e9696aa1-0ccf-4e18-af7a-c827cc25575d",
+      "uris": [
+        "/transacao/*"
+      ],
+      "scopes": [
+        {
+          "name": "visualizar"
+        },
+        {
+          "name": "gerenciar"
+        }
+      ]
+    },
+    {
+      "name": "usuario",
+      "ownerManagedAccess": false,
+      "displayName": "usuario",
+      "attributes": {},
+      "_id": "07b4c287-9919-4896-b3dc-41a0ab8f4302",
+      "uris": [
+        "/usuario/*"
+      ],
+      "scopes": [
+        {
+          "name": "visualizar"
+        },
+        {
+          "name": "gerenciar"
+        }
+      ]
+    },
+    {
+      "name": "credenciado",
+      "ownerManagedAccess": false,
+      "displayName": "credenciado",
+      "attributes": {},
+      "_id": "1c4c7f77-bcba-450e-a521-c6929fbfa8b4",
+      "uris": [
+        "/credenciado/*"
+      ],
+      "scopes": [
+        {
+          "name": "visualizar"
+        },
+        {
+          "name": "gerenciar"
+        }
+      ]
+    }
+  ],
+  "policies": [
+    {
+      "id": "8a97759c-263a-4c11-aaeb-c4cc7d831531",
+      "name": "Default Policy",
+      "description": "A policy that grants access only for users within this realm",
+      "type": "js",
+      "logic": "POSITIVE",
+      "decisionStrategy": "AFFIRMATIVE",
+      "config": {
+        "code": "// by default, grants any permission associated with this policy\n$evaluation.grant();\n"
+      }
+    },
+    {
+      "id": "ff8dca80-f40a-4949-a140-8b82e3a2cbf7",
+      "name": "Somente Administrador e Administrativo Policy",
+      "description": "Somente Administrador e Administrativo Policy",
+      "type": "role",
+      "logic": "POSITIVE",
+      "decisionStrategy": "UNANIMOUS",
+      "config": {
+        "roles": "[{\"id\":\"administrativo\",\"required\":false},{\"id\":\"administrador\",\"required\":false}]"
+      }
+    },
+    {
+      "id": "15fc067a-dc68-44be-aafa-db1490cc1615",
+      "name": "Somente Operacional Policy",
+      "description": "Somente Operacional Policy",
+      "type": "role",
+      "logic": "POSITIVE",
+      "decisionStrategy": "UNANIMOUS",
+      "config": {
+        "roles": "[{\"id\":\"operacional\",\"required\":false}]"
+      }
+    },
+    {
+      "id": "036a7e58-f8ba-4b05-a02b-c31f4c1ed0c3",
+      "name": "Somente Administrador Policy",
+      "description": "Somente Administrador Policy",
+      "type": "role",
+      "logic": "POSITIVE",
+      "decisionStrategy": "UNANIMOUS",
+      "config": {
+        "roles": "[{\"id\":\"administrador\",\"required\":false}]"
+      }
+    },
+    {
+      "id": "d2acac23-ffd5-4b75-abdc-e2f12c71ef7a",
+      "name": "Somente Administrativo Policy",
+      "description": "Somente Administrativo Policy",
+      "type": "role",
+      "logic": "POSITIVE",
+      "decisionStrategy": "UNANIMOUS",
+      "config": {
+        "roles": "[{\"id\":\"administrativo\",\"required\":false}]"
+      }
+    },
+    {
+      "id": "4d797f57-80fa-45b6-a2ca-612106a3abd5",
+      "name": "authexcept:visualizar",
+      "description": "authexcept:visualizar",
+      "type": "scope",
+      "logic": "POSITIVE",
+      "decisionStrategy": "UNANIMOUS",
+      "config": {
+        "resources": "[\"authexcept\"]",
+        "scopes": "[\"visualizar\"]",
+        "applyPolicies": "[\"Somente Operacional Policy\"]"
+      }
+    },
+    {
+      "id": "6bc842fa-8ede-4a89-8d4d-fd40fe5ccdef",
+      "name": "grupo-usuario:visualizar",
+      "description": "grupo-usuario:visualizar",
+      "type": "scope",
+      "logic": "POSITIVE",
+      "decisionStrategy": "UNANIMOUS",
+      "config": {
+        "resources": "[\"grupo-usuario\"]",
+        "scopes": "[\"visualizar\"]",
+        "applyPolicies": "[\"Somente Administrador e Administrativo Policy\"]"
+      }
+    },
+    {
+      "id": "022e58d6-2d45-4ac4-957d-8515a5cf3bb3",
+      "name": "grupo-usuario:gerenciar",
+      "description": "grupo-usuario:gerenciar",
+      "type": "scope",
+      "logic": "POSITIVE",
+      "decisionStrategy": "UNANIMOUS",
+      "config": {
+        "resources": "[\"grupo-usuario\"]",
+        "scopes": "[\"gerenciar\",\"visualizar\"]",
+        "applyPolicies": "[\"Somente Administrador e Administrativo Policy\"]"
+      }
+    },
+    {
+      "id": "1a6e5ec4-6f37-41fd-962c-2eedecaf1544",
+      "name": "authexcept:gerenciar",
+      "description": "authexcept:gerenciar",
+      "type": "scope",
+      "logic": "POSITIVE",
+      "decisionStrategy": "UNANIMOUS",
+      "config": {
+        "resources": "[\"authexcept\"]",
+        "scopes": "[\"gerenciar\",\"visualizar\"]",
+        "applyPolicies": "[\"Somente Administrador e Administrativo Policy\"]"
+      }
+    }
+  ],
+  "scopes": [
+    {
+      "id": "d35630d7-b61d-4a90-983b-298a85c54110",
+      "name": "gerenciar"
+    },
+    {
+      "id": "e122608a-1e5e-41f8-8fcd-84b05fafab8b",
+      "name": "visualizar"
+    }
+  ],
+  "decisionStrategy": "UNANIMOUS"
+}
