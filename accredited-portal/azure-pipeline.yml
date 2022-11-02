@@ -1,0 +1,33 @@
+parameters:
+  - name: release
+    type: string
+    default: AMBSOA
+
+  - name: server
+    displayName: Ambiente
+    type: string
+    default: Container
+    values:
+    - Container
+
+trigger: none
+
+variables:
+  - group: container_variables
+
+resources:
+  repositories:
+    - repository: templates-pipelines
+      type: git
+      name: ALM/templates-pipelines
+      ref: refs/heads/master
+
+stages:
+- stage: Docker
+  displayName: Docker
+  dependsOn: []
+  condition: eq('${{ parameters.server }}', 'Container')
+  jobs:
+   - template: TPS/PipelineContainer/node/pipeline-container-node.yml@templates-pipelines
+     parameters:
+       release: ${{ parameters.release }}
